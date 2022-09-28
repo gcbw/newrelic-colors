@@ -1,0 +1,21 @@
+{
+
+  "manifest_version": 2,
+  "name": "newrelic colors",
+  "version": "1.0",
+
+  "description": "Fix awful UI from newrelic. Use color on accounts so you know which place you are. Source https://github.com/gcbw/newrelic_colors",
+
+  "icons": {
+    "128": "favicon.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://*.newrelic.com/*"],
+      "js": ["script.js"]
+    }
+  ]
+
+}
+
