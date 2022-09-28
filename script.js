@@ -8,6 +8,7 @@ log('init');
 setTimeout( updateButtonColor, 1000);
 
 function updateButtonColor(){
+  // TODO: restore style if no button found. or if button is set to all accounts.
   log('update');
   // newrelic have zero ids/names/aria... hope you are not handicaped.
   //
